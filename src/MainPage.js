@@ -30,6 +30,7 @@ const MainPage = () => {
             <div className="main-layout">
                 <Form search={search} setSearch={setSearch} setMessage={setMessage} setObject={setObject} message={message} setPage={setPage}/>
                 <div className="movie-layout-loading">
+                    <p>Travis CI works!</p>
                     <img src={image}/>
                 </div>
             </div>
