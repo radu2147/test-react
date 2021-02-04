@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.searchBar{
+    background-color: rgb(58, 65, 112);
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+.searchBar > li{
+    grid-column: 1;
+    text-align: center;
+    list-style: none;
+    width:25%;
+}
+
+.searchBar h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+input{
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.photo img{
+    width: 300px;
+    height: 398px;
+}
+
+.footer{
+    height: 150px;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.paginList{
+    list-style: none;
+}
+
+.list-item-pagination{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+.list-item-pagination:hover{
+    background-color: blue;
+}
+
+.footer p{
+    color: white;
+}
+
+.list-item{
+    font-weight: bold;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.movie-layout{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 20px;
+}
+.image{
+    grid-column: 3 / 5;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    grid-column: 6 / 9;
+}
+.description h3{
+    align-self: center;
+}
+
+.details-description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.movie-layout-loading{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.main-layout{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr 10fr;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
