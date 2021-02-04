@@ -17,7 +17,7 @@ const MainPage = () => {
 
     //api call
     useEffect(() => {
-            let url = 'http://www.omdbapi.com/?apikey=6598a88d&s=' + message + "&page=" + page;
+            let url = 'https://www.omdbapi.com/?apikey=6598a88d&s=' + message + "&page=" + page;
             fetch(url)
             .then(result => result.json())
             .then(rez => {
